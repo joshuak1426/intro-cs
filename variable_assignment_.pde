@@ -6,7 +6,7 @@ void setup() {
 }
 
 void draw () {//loop
-  background (5variables_assignment00);
+  background (500);
   square (f,0,132);
   f = f + 4;
   square (275,x,220);
