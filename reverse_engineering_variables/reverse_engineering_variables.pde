@@ -1,4 +1,4 @@
-
+float w = 100
 float x = 200;
 float y=0;
 float z=300;
@@ -10,7 +10,8 @@ void setup () { //called once
 
 void draw() { // in a loop 
   background (0);
-  fill (255, 0, 0, 100);
+  fill (255, 0, 0, w);
+  w = w + 2 
   circle(width/2, height/2, 300);
   fill(500,500,500);
   square(540,x,30);
