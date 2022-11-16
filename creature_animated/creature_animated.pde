@@ -79,7 +79,7 @@ translate (650,265);
 rect (0, 0, 100, 40); //right arm - shorter part of the arm
 
  rotate (radians(x));
- x = x + 1; //change point of origin 
+ x = x + 1; 
 fill (0,0,0); //color of the left and right foot of the robot - black 
 fill (200,200,200);  // color of the left and right hand of the robot - gray 
 fill (250,250,0); //color of the robot mechanic containing the robot buttons - yellow
