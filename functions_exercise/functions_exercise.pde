@@ -25,6 +25,6 @@ void diamond() {
  vertex (400,300);
  vertex (600,150);
 
-  endShape(CLOSE);
+  endShape();
   pop();
 }
